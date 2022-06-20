@@ -1,0 +1,11 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA_2	2. Data			none	11		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_2_1	Specific Sample Identifier	Specific sample ID or Name	BM-11 Leach1, BM-11 Cpx, Ol magnetic, etc	text	12	<b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_2	Analysed Material	The type of analysed material (e.g. whole rock powder, mineral separate, component, leachate)	Whole Rock	text	13	<br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_3	Size Fraction	<2 mm	0.1	float	14	<br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_4	Sample Preparation Details	A description of the preparation details for the sample.	Add your description here.	textbox	15	<br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_5	Digestion/Chemical Treatment	A description of the digestion or chemical treatment.	Add your description here.	textbox	16	<br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_6	Number of Replicates	A description of the procedure for the number of replicates.	Add your description here.	textbox	17	<br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
