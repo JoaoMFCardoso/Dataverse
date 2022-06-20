@@ -1,0 +1,16 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA_3	3. Primary Analytical Metadata			none	18		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_3_1	Instrument Code	The identifier for the instrument used, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	ICPMS-HR	text	19	<a></a><b>#NAME:</b> #VALUE	TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_2	Parameter	The identifier of the parameter used, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	Acetate	text	20	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_3	Technique	The identifier of the technique used, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	AAS	text	21	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_4	Instrument	The name of the instrument used.	ThermoARL XRF	text	22	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_5	Laboratory	The name of the laboratory.	Geochemistry, Freie Universitat Berlin	text	23	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_6	Analysis Year	The analysis year(s). Expressed in the YYYY format (e.g. 2022).	2022	text	24	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	TRUE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_7	Reference Material Names		BCR-1	text	25	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_8	Reference Material Measured Values			text	26	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_9	Type of Reference Material Uncertainty		2 standard deviation, 2 standard deviation of the mean , student-t 95% confidence level	text	27	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_10	Reference Material Uncertainty and Unit	(e.g. absolute, relative, ppm, wt%, gamma, permille, epsilon).		text	28	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+	GA_3_11	Number of Individual Measurements of Reference Material			text	29	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_3	GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											

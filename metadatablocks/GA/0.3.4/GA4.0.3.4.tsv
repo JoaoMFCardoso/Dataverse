@@ -1,0 +1,11 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA_4	4. General Method-Specific Metadata			none	30		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_4_1	Sample Purification Method Code	The identifier of the sample purification method core, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	ID-ES	text	31	<a></a><b>#NAME:</b> #VALUE	TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	GA_4	GA
+	GA_4_2	Parameter	The identifier of the parameter used, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	Acetate	text	32	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	GA_4	GA
+	GA_4_3	Detection Limit	Can have multiple values.		text	33	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	TRUE	TRUE	TRUE	FALSE	GA_4	GA
+	GA_4_4	Unit	The identifier of the unit used,  in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	ng/g	text	34	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_4	GA
+	GA_4_5	Total Procedural Blank Value(s)	Can have multiple values.		text	35	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_4	GA
+	GA_4_6	Total Procedural Blank Value Unit	The identifier of the unit used,  in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	ng/g	text	36	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_4	GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
