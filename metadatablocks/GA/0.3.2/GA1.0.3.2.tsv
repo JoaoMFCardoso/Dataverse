@@ -1,0 +1,15 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA_1	1. Sample Information	General information on the sample.		none	0		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_1_1	General Sample Identifier	General sample ID(s) or Name(s). Provided by collector.	BM-11	text	1	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_2	ISGN	The International Geo Sample Number. An alphanumeric code that uniquely identifies samples taken from our natural environment, as well as related sampling features. It is assigned by SESAR. 	IGSN: HRV003M16   	text	2	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_3	Location Keywords	Keywords to define locations	East Pacific Rise	text	3	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_4	Lithology	The sample rock type.	Basalt	text	4	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_5	Age	The age of the sample.	oligocene	text	5	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_6	Depth in Core	The depth. May be expressed in m (subposition may be specified in cm), mbsf (meter below seafloor, drill cores), or mbs (meter below surface, drill cores) 	100	float	6	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_7	Texture	The texture of the sample.	holocrystalline	text	7	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_8	Cruise/Mission			text	8	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_9	Year of Collection	The year the sample was collected. Expressed in yyyy format. (e.g. 2022)	YYYY	date	9	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+	GA_1_10	Collector	The collector identifier		text	10	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_1	GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											

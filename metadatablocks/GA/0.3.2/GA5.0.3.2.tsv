@@ -1,0 +1,24 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA_5	5. Instrument-Based Corrections			none	37		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		GA
+	GA_5_1	5.1. Correction Method of Matrix Effects	(e.g. matrix-matching reference materials, internal standards, N/A)		text	38	 #VALUE	FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_5_2	5.2. Interference Corrections			none	39		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_5_2_1	Interfered Masses			text	40	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_2	GA
+	GA_5_2_2	Monitor Isotopes			text	41	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_2	GA
+	GA_5_2_3	Range of Values of Monitor Ratios			text	42	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_2	GA
+	GA_5_3	5.3. Correction of Mass Fractionation/Discrimination			none	43		FALSE	FALSE	FALSE	FALSE	TRUE	FALSE		GA
+	GA_5_3_1	5.3.1. Radiogenic Isotopes			none	44		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_5_3_1_1	Parameter	The identifier of the parameter used, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	Nd146_Nd144	text	45	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_1	GA
+	GA_5_3_1_2	Reference Material Name		La Jolla	text	46	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_1	GA
+	GA_5_3_1_3	Reference Value	From literature		text	47	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_1	GA
+	GA_5_3_1_4	Citation			text	48	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_1	GA
+	GA_5_3_1_5	Normalization Law	(e.g. linear, exponential, standard-sample bracketing, etc.).	linear	text	49	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_1	GA
+	GA_5_3_2	5.3.2. Stable Isotopes			none	50		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_5_3_2_1	Parameter	The identifier of the parameter used, in accordance to the controlled vocabulary available at https://doi.org/10.35003/PVZFXX	Cu65_Cu63	text	51	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_2	GA
+	GA_5_3_2_2	Reference Material Name		NIST SRM XXX	text	52	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_2	GA
+	GA_5_3_2_3	Reference Value	From literature		text	53	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_2	GA
+	GA_5_3_2_4	Citation			text	54	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_2	GA
+	GA_5_3_2_5	Normalization Law	(e.g. linear, exponential, standard-sample bracketing, etc.).	linear	text	55	<b>#NAME:</b> #VALUE<br>	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_5_3_2	GA
+	GA_6	6. Comments	Any additional comments that might add to the Sample characterization.	Add your comments here.	textbox	56	 #VALUE	TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
