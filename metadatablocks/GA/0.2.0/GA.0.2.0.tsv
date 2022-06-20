@@ -1,0 +1,61 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA.sample_information	1. Sample Information			none	0		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		GA
+	GA.sample_information.general_id	General Sample Identifier	General sample ID(s) or Name(s). Provided by collector.	example: BM-11	text	1	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.isgn	ISGN	Assigned by SESAR		text	2	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.location_keywords	Location Keywords		example: East Pacific Rise	text	3	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.lithology	Lithology	Rock types	example: Basalt	text	4	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.age	Age		example: oligocene	text	5	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.depth_in_core	Depth in Core		(m, subposition may be specified in cm)  or mbsf (meter below seafloor, drill cores) or mbs (meter below surface, drill cores) 	text	6	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.texture	Texture		example: holocrystalline	text	7	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.cruise_mission	Cruise/Mission			text	8	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.year_of_collection	Year of Collection		YYYY	date	9	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.collector	Collector			text	10	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.data	2. Data			none	11		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		GA
+	GA.data.specific_id	Specific Sample Identifier	Specific sample ID or Name	example: BM-11 Leach1, BM-11 Cpx, Ol magnetic, etc	text	12	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.data	GA
+	GA.data.analysed_material	Analysed Material		example: whole rock powder, mineral separate, component, leachate	text	13	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.data	GA
+	GA.data.size_fraction	Size Fraction		example: <2 mm	text	14	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.data	GA
+	GA.data.sample_preparation_details	Sample Preparation Details		example: crushed in agate mill	text	15	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.data	GA
+	GA.data.digestion_chemical_treatment	Digestion/Chemical Treatment		example: completely dissolved in 0.1M HF + 5.0M HNO3	text	16	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.data	GA
+	GA.data.number_of_replicates	Number of Replicates		Complete procedure	text	17	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.data	GA
+	GA.primary_analytical_metadata	3. Primary Analytical Metadata			none	18		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		GA
+	GA.primary_analytical_metadata.instrument_code	Instrument Code			text	19	<a/><b>#NAME:</b> #VALUE	TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.parameter3	Parameter			text	20	<a/><b>#NAME:</b> #VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.technique	Technique			text	21	<a/><b>#NAME:</b> #VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.instrument	Instrument		example: ThermoARL XRF	text	22	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.laboratory	Laboratory		example: Geochemistry, Freie Universität Berlin	text	23	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.analysis_year	Analysis Year	Can have multiple year values.	YYYY	date	24	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.reference_material_names	Reference Material Names		example: BCR-1	text	25	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.reference_material_measured_value	Reference Material Measured Values			text	26	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.type_of_reference_material_uncertainty	Type of Reference Material Uncertainty		example: 2 standard deviation, 2 standard deviation of the mean , student-t 95% confidence level	text	27	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.reference_material_uncertainty_and_unit	Reference Material Uncertainty and Unit		example: absolute, relative, ppm, wt%, gamma, permille, epsilon	text	28	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.primary_analytical_metadata.number_of_individual_measurements_of_reference_material	Number of Individual Measurements of Reference Material			text	28	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.primary_analytical_metadata	GA
+	GA.general_method_specific_metadata	4. General Method-Specific Metadata			none	30		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		GA
+	GA.general_method_specific_metadata.sample_purification_method_code	Sample Purification Method Code	(spread sheet Methods)		text	31	<a/><b>#NAME:</b> #VALUE	TRUE	TRUE	FALSE	TRUE	TRUE	FALSE	GA.general_method_specific_metadata	GA
+	GA.parameter4	Parameter			text	32	<a/><b>#NAME:</b> #VALUE	FALSE	TRUE	FALSE	TRUE	TRUE	FALSE	GA.general_method_specific_metadata	GA
+	GA.general_method_specific_metadata.detection_limit	Detection Limit	Can have multiple values.		text	33	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.general_method_specific_metadata	GA
+	GA.unit	Unit		example: µg/g	text	34	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.general_method_specific_metadata	GA
+	GA.general_method_specific_metadata.total_procedural_blank_value	Total Procedural Blank Value(s)	Can have multiple values.		text	35	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.general_method_specific_metadata	GA
+	GA.general_method_specific_metadata.total_procedural_blank_value_unit	Total Procedural Blank Value Unit		example: µg/g	text	36	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.general_method_specific_metadata	GA
+	GA.intrument_based_corrections	5. Instrument-Based Corrections			none	37		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		GA
+	GA.intrument_based_corrections.correction_method_of_matrix_effects	5a. Correction Method of Matrix Effects	(matrix-matching reference materials, internal standards, N/A)		text	38		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.interference_corrections	5b. Interference Corrections			none	39		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.interference_corrections.interfered_masses	Interfered Masses			text	40	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.interference_corrections.monitor_isotopes	Monitor Isotopes			text	41	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.interference_corrections.range_of_values_of_monitor_ratios	Range of Values of Monitor Ratios			text	42	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination	5c. Correction of Mass Fractionation/Discrimination			none	43		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.radiogenic_isotopes	Radiogenic Isotopes			none	44		FALSE	FALSE	FALSE	FALSE	TRUE	TRUE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.radiogenic_isotopes.parameter	Parameter		example: Nd146_Nd144	text	45	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.radiogenic_isotopes.reference_material_name	Reference Material Name		example: La Jolla	text	46	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.radiogenic_isotopes.reference_value	Reference Value		from literature	text	47	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.radiogenic_isotopes.citation	Citation			text	48	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.radiogenic_isotopes.normalization_law	Normalization Law		example: linear, exponential, standard-sample bracketing, etc.	text	49	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.stable_isotopes	Stable Isotopes			none	50		FALSE	FALSE	FALSE	FALSE	TRUE	TRUE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.stable_isotopes.parameter	Parameter		example: Cu65_Cu63	text	51	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.stable_isotopes.reference_material_name	Reference Material Name		example: NIST SRM XXX	text	52	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.stable_isotopes.reference_value	Reference Value		example: from literature	text	53	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.stable_isotopes.citation	Citation			text	54	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.intrument_based_corrections.correction_of_mass_fractionation_discrimination.stable_isotopes.normalization_law	Normalization Law		example: linear, exponential, standard-sample bracketing, DS, etc.	text	55	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA.intrument_based_corrections	GA
+	GA.comments	Comments		Write your comments here…	textbox	56	<a/><b>#NAME:</b> #VALUE	TRUE	FALSE	FALSE	FALSE	TRUE	TRUE		GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											

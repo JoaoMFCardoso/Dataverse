@@ -1,0 +1,15 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA.sample_information	1. Sample Information			none	0		FALSE	FALSE	TRUE	FALSE	TRUE	TRUE		GA
+	GA.sample_information.general_id	General Sample Identifier	General sample ID(s) or Name(s). Provided by collector.	BM-11	text	1	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.isgn	ISGN	Assigned by SESAR		text	2	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.location_keywords	Location Keywords	Keywords to define locations	East Pacific Rise	text	3	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.lithology	Lithology	Rock types	Basalt	text	4	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.age	Age		oligocene	text	5	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.depth_in_core	Depth in Core		(m, subposition may be specified in cm)  or mbsf (meter below seafloor, drill cores) or mbs (meter below surface, drill cores) 	text	6	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.texture	Texture		holocrystalline	text	7	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.cruise_mission	Cruise/Mission			text	8	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.year_of_collection	Year of Collection		YYYY	date	9	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+	GA.sample_information.collector	Collector	The collector identifier		text	10	<a/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE	GA.sample_information	GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
