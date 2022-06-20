@@ -1,0 +1,14 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	GA		Geochemical Analysis												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	GA_2	2. Data			none	11		FALSE	FALSE	TRUE	FALSE	TRUE	FALSE		GA
+	GA_2_1	Specific Sample Identifier	Sample name, latitude, longitude, elevation, lithology. Check geosamples.org	TR-GT, TR-IP, etc.	text	12	<a></a><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_2	Analysed Material	The type of analysed material (e.g. whole rock powder, mineral separate, component, leachate)	Whole Rock	text	13	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_3	Size Fraction	The size fraction of material used for analysis (e.g. whole rock powder, mineral separate, component, leachate)	<2 mm	text	14	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_4	Sample Preparation Details	A description of the preparation details for the sample. Example: Crushed with Bico chipmunk, separated with shaker table, standard magnetic separation, pulverized in shatterbox laboratory mill	Add your description here.	textbox	15	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_5	Digestion/Chemical Treatment	A description of the digestion or chemical treatment. Example: whole rock samples were dissolved in 0.1  HF+5.0 MHN03	Add your description here.	textbox	16	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+	GA_2_6	Number of Replicates	A description of the procedure for the number of replicates. Add description if average, if it's only 1, leave blank.	Add your description here.	textbox	17	<a></a><br/><b>#NAME:</b> #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	GA_2	GA
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+															
+															
+															
